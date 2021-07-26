@@ -143,7 +143,7 @@ socket.on("chat message", (data) => {
   serialport.write(data+'\n')
 });
 
-const job = schedule.scheduleJob('*/10 * * * * *', function(){
-  console.log('schedule $Tbd3=83:10:1:10')
-  serialport.write('$Tbd3=83:10:1:10\n')
-});
+//const job = schedule.scheduleJob('*/10 * * * * *', function(){
+//  console.log('schedule $Tbd3=83:10:1:10')
+//  serialport.write('$Tbd3=83:10:1:10\n')
+//});
